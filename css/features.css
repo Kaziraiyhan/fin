@@ -275,3 +275,25 @@ opacity: 0.6;
 }
 
 /* <!-- =========================  Get free Revisions End //>>  ========================== --> */
+
+    /* <!-- =========================  Support   ========================== --> */
+#revisions{
+  padding: 128px;
+  background-color: #F4F6FC;
+}
+.support_right{
+  padding: 0;
+}
+.support__image img {
+	width: 100%;
+	object-fit: cover;
+	padding-right: 80px;
+}
+.support_detils_wraper {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	height: 100%;
+	justify-content: center;
+}
+    /* <!-- =========================  Support//>>   ========================== --> */
