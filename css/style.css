@@ -377,11 +377,11 @@ margin-right: 20px;
 }
 .accordion-button::after {
  
-  background-image: url(./Images/plus-solid.svg);
+  background-image: url(./images/plus-solid.svg);
 
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url(./Images/plus-solid.svg);
+  background-image: url(./images/plus-solid.svg);
   rotate: 45deg;
 
 }
@@ -391,7 +391,7 @@ margin-right: 20px;
 .form_left{
   height: 691px;
   width: 656px;
-  background: url(../Images/form_left.png);
+  background: url(../images/form_left.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
