@@ -546,6 +546,11 @@ color: #282938;
   border: none;
   border-radius:50px  !important ;
 }
+#blog .card img{
+  width: 405px;
+  height: 285px;
+  object-fit: cover;
+}
 /* ===============  footer =========== */
 footer{
   background-color: #1C1E53;

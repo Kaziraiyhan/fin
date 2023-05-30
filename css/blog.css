@@ -1,0 +1,31 @@
+#studios {
+  padding-top: 220px;
+  padding-bottom: 128px;
+}
+.studios_text {
+  width: 949px;
+  margin: auto;
+  text-align: center;
+}
+.head_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #282938;
+}
+.studious_img{
+    width: 100%;
+    height: 477px;
+    margin-top: 32px;
+}
+.studious_img img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+.blog_card{
+    margin-top: 30px;
+}
