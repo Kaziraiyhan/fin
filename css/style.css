@@ -32,7 +32,9 @@ opacity: 0.7;
 /* ////////////////////  ============   navBer Start  ====================////////////////// */
 
 #nav {
-  position: absolute;
+  background-color: #1c1e53;
+  position: fixed !important;
+  z-index: 99;
   width: 100%;
 }
 
@@ -377,11 +379,11 @@ margin-right: 20px;
 }
 .accordion-button::after {
  
-  background-image: url(./images/plus-solid.svg);
+  background-image: url(../images/plus-solid.svg);
 
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url(./images/plus-solid.svg);
+  background-image: url(../images/plus-solid.svg);
   rotate: 45deg;
 
 }

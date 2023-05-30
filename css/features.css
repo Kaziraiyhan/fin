@@ -35,6 +35,10 @@
   background-color: #fcd980c7;
 }
 
+.img{
+  object-fit: cover;
+  width: fit-content;
+}
 /* <!-- =========================== <<// Work Start from Here   ========================== --> */
 
 #work {
@@ -220,6 +224,9 @@
 .client_images{
   padding: 0;
 }
+.client__image{
+  height: 398px;
+}
 .client__image img{
   padding-left: 80px;
 
@@ -284,10 +291,13 @@ opacity: 0.6;
 .support_right{
   padding: 0;
 }
+.support__image{
+  height: 398px;
+}
 .support__image img {
 	width: 100%;
 	object-fit: cover;
-	padding-right: 80px;
+	padding-left: 80px;
 }
 .support_detils_wraper {
 	display: flex;
@@ -297,3 +307,7 @@ opacity: 0.6;
 	justify-content: center;
 }
     /* <!-- =========================  Support//>>   ========================== --> */
+.rev_images{
+  height: 398px;
+  overflow: hidden;
+}
