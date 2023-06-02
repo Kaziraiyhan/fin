@@ -147,7 +147,8 @@
     font-size: 26px;
     line-height: 33px;
     height: auto;
-}
+    padding: 0 15px;
+  }
 .design_item {
   padding: 20px;
   text-align: center;
