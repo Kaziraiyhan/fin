@@ -81,7 +81,13 @@
     font-size: 14px;
     margin-bottom: 8px;
     line-height: 20px;
+    padding: 0 30px;
   }
+  .work_btn {
+    font-size: 14px;
+    line-height: 24px;
+    
+}
   .work_right_item {
     margin: 10px 0;
     text-align: center;
@@ -104,7 +110,7 @@
     text-align: justify;
     text-align-last: center;
     text-justify: inter-word;
-
+    padding: 0 30px;
   }
   /*  Project Start  */
   #project {
@@ -126,6 +132,10 @@
   }
   .p_r_img_overlay {
     padding: 20px;
+    
+  }
+  .project_right_item{
+padding: 0;
   }
   /* =======  Design ========= */
   #design {
