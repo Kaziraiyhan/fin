@@ -84,14 +84,27 @@
   }
   .work_right_item {
     margin: 10px 0;
+    text-align: center;
   }
   .work_right_icon {
-    margin-bottom: 8px;
+    scale: .8;
+    margin: auto;
   }
+  
   #work h4 {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  #work p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    text-align-last: center;
+    text-justify: inter-word;
+
   }
   /*  Project Start  */
   #project {
@@ -118,6 +131,7 @@
   #design {
     padding: 50px 0;
   }
+
   #design h2 {
     margin: auto;
     width: auto;
@@ -136,6 +150,7 @@
 }
 .design_item {
   padding: 20px;
+  text-align: center;
 }
 .client_review_left {
   padding: 20px;
@@ -193,21 +208,29 @@
 }
 /* ==============   Blog Start  ===========  */
 #blog {
-  padding: 50px 0;
+	padding: 30px 0;
 }
 #blog h2 {
-  line-height: 42px;
-  font-size: 38px;
-  margin-bottom: 30px;
+	line-height: 30px;
+	font-size: 33px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 .blog_wrapper{
   row-gap: 20px;
 }
-
-.card-title {
-  font-size: 20px;
-  line-height: 30px;
+#blog .card img {
+	width: auto;
+	height: 200px;
+	object-fit: cover;
 }
+.card-title {
+	font-size: 16px;
+	line-height: 24px;
+	/* text-align: ; */
+}
+
+
 /* <!--  <<==========================  footer Start  ========================>> --> */
 footer {
   padding: 48px 0;
