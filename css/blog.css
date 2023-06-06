@@ -28,3 +28,26 @@
 .blog_card{
     margin-top: 30px;
 }
+/* =======================  responsive ======================== */
+@media (max-width:575.99px) {
+  
+
+#studios {
+  padding-top: 101px;
+}
+.studios_text {
+  width: 340px;
+}
+.head_text {
+  font-size: 23px;
+  line-height: 28px;
+}
+.studious_img {
+  height: 225px;
+  margin-bottom: 25px;
+}
+.blog_card .card {
+
+  background-color: #eee;
+}
+}

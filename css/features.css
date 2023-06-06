@@ -311,3 +311,41 @@ opacity: 0.6;
   height: 398px;
   overflow: hidden;
 }
+
+
+/* ===============   Responsive  for mobile ================ */
+
+@media (max-width:575.99px) {
+  .featurs_left h1 {
+    font-size: 29px;
+    line-height: 35px;
+}
+.featurs_btn {
+  padding: 10px 24px;
+}
+#featurs {
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+.web_links {
+  margin: 15px 0;
+}
+#work h3 {
+  margin-top: 60px;
+  padding: 0 30px;
+}
+.design_item_wraper {
+  gap: 30px;
+ 
+}
+.padding_128 {
+  padding: 28px 0;
+}
+.client__image img {
+  width: 100%;
+  padding: 10px;
+}
+.client__image {
+  height: max-content;
+}
+}

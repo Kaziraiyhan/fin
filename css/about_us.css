@@ -287,3 +287,68 @@ text-transform: uppercase;
 }
 
 /* <!--  <<==========================  Meet our team //>>  ========================>> --> */
+
+/*  ===================  Responsive for mobile =================== */
+@media (max-width: 575.99px) {
+  #about_us {
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+#about_us h2 {
+  font-size: 29px;
+  line-height: 35px;
+}
+.about_left p {
+  font-size: 15px;
+  line-height: 24px;
+}
+.goal {
+  padding-top: 28px;
+}
+.goal h2 {
+  font-size: 29px;
+  line-height: 35px;
+}
+.goal p {
+  font-size: 15px;
+  line-height: 25px;
+}
+#process {
+  padding: 28px 0;
+}
+.process h2 {
+  font-size: 29px;
+  line-height: 35px;
+}
+.process h4 {
+  line-height: 29px;
+  margin-top: 11px;
+}
+.process p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+#our_misson {
+  padding: 28px 0;
+}
+#our_misson small {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0px 5px;
+}
+.misson_details {
+  margin-top: 0px;
+}#our_misson h3 {
+  font-size: 29px;
+  line-height: 35px;
+  margin: 16px 5px;
+}
+#work h3 {
+  font-size: 29px;
+  line-height: 35px;
+  padding: 0;
+    padding: 0 25px;
+}
+
+}

@@ -536,16 +536,11 @@ font-size: 16px;
 line-height: 28px;
 color: #282938;
 }
-.blog_card .card-img-top {
-  border-top-left-radius: 0 ;
-}
+
 .card_link svg{
   margin-left: 16px;
 }
-.blog_card .card{
-  border: none;
-  border-radius:50px  !important ;
-}
+
 #blog .card img{
   width: 405px;
   height: 285px;
